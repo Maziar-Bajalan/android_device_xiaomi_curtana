@@ -25,13 +25,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit from curtana device
 $(call inherit-product, device/xiaomi/curtana/device.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := curtana
-PRODUCT_NAME := omni_curtana
+PRODUCT_NAME := lineage_curtana
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi
 PRODUCT_MANUFACTURER := xiaomi

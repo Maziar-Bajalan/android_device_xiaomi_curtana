@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_curtana-userdebug
-add_lunch_combo omni_curtana-eng
+add_lunch_combo lineage_curtana-userdebug
+add_lunch_combo lineage_curtana-eng
